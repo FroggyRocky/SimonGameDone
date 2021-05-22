@@ -9,6 +9,7 @@ var started = false;
 const playSound = (name) => {
     var audio = new Audio("sounds/" + name + ".mp4");
     audio.play();
+    $(audio).muted = "true";
 };
 const pressedBtn = (target) => {
     $(target).addClass("pressed");
