@@ -25,7 +25,29 @@ body {
   border: 10px solid black;
   border-radius: 20%;
 }
-
+.btn__start {
+  min-height: 20vh;
+  min-width: 50vh;
+  font-size: xx-large;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #FEF2BF;
+color: crimson;
+margin-top: -25px;
+margin-bottom: 25px;
+border-radius: 10px;
+}
+.btn__restart {
+  display: none;
+  min-height: 20vh;
+  min-width: 50vh;
+  font-size: xx-large;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #FEF2BF;
+color: crimson;
+margin-top: -25px;
+margin-bottom: 25px;
+border-radius: 10px;
+}
 .game-over {
   background-color: red;
   opacity: 0.8;
@@ -50,4 +72,12 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+.hide {
+  display: none;
+}
+.show {
+display: inline-block;
+align-items: center;
+text-align: center;
 }
